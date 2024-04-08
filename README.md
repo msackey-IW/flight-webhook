@@ -13,7 +13,7 @@ This Spring Boot project implements a flight tracking and notification system. I
 ### Clone the Repository
 - Open a terminal or command prompt (Powershell on Windows and Terminal or linux or macOs)
 - Navigate to the directory you want to clone the project. e.g. `cd path/to/your/directory`
-- Run `git@github.com:msackey-IW/flight-webhook.git`
+- Run `git clone git@github.com:msackey-IW/flight-webhook.git`
 - Run cd `flight-webhook`
 - Run `mvn clean spring-boot:run`. This will create and run the flight-webhook springboot application.
 
