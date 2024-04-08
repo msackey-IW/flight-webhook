@@ -8,13 +8,13 @@ This Spring Boot project implements a flight tracking and notification system. I
 - An IDE ( [Visual Studio Code](https://code.visualstudio.com/download) or [intellij IDEA](https://www.jetbrains.com/idea/download/?source=google&medium=cpc&campaign=APAC_en_AU_IDEA_Branded&term=intellij+idea&content=602143185772&gclid=EAIaIQobChMI-f3uuYnegwMVwqRmAh0_ewXKEAAYASABEgImY_D_BwE&section=windows) )
 - [Postman API](https://www.postman.com/downloads/)
 - [Java](https://www.oracle.com/java/technologies/downloads/) 17 at minimum installed on your local machine.
-- https://pipedream.com/requestbin
+- An account with https://pipedream.com/requestbin
 
 ### Clone the Repository
 - Open a terminal or command prompt (Powershell on Windows and Terminal or linux or macOs)
 - Navigate to the directory you want to clone the project. e.g. `cd path/to/your/directory`
 - Run `git@github.com:msackey-IW/flight-webhook.git`
-- Run cd "flight-webhook`
+- Run cd `flight-webhook`
 - Run `mvn clean spring-boot:run`. This will create and run the flight-webhook springboot application.
 
 ### Testing with Postman
@@ -30,4 +30,3 @@ This Spring Boot project implements a flight tracking and notification system. I
 - Send a request to the server to add a flight the database.
 - This will add the flight to the database and notify the subscribed webhook urls.
 - You should see the flight information posted to `https://pipedream.com/requestbin`.
-
